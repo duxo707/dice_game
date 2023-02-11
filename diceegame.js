@@ -13,5 +13,5 @@ else {
     document.querySelector("div h1").textContent = "it's a tie";
 }
 
-document.getElementsByClassName("img1")[0].setAttribute("src", "images/dice"+p1+".png");
-document.getElementsByClassName("img2")[0].setAttribute("src", "images/dice"+p2+".png");
+document.getElementsByClassName("img1")[0].setAttribute("src", "dice"+p1+".png");
+document.getElementsByClassName("img2")[0].setAttribute("src", "dice"+p2+".png");
